@@ -767,6 +767,7 @@
     var namespace = '.w-webflow-badge';
     var location = window.location;
     var isPhantom = /PhantomJS/i.test(navigator.userAgent);
+    var brandElement;
 
     // -----------------------------------
     // Module methods
@@ -778,12 +779,13 @@
         shouldBrand = true;
       }
       if (shouldBrand && !isPhantom) {
+        brandElement = brandElement || createBadge();
         ensureBrand();
         setTimeout(ensureBrand, 500);
       }
     };
 
-    var brandElement = (function() {
+    function createBadge() {
       var $brand = $('<a class="w-webflow-badge"></a>')
       .attr('href', 'https://webflow.com?utm_campaign=brandjs');
 
@@ -799,7 +801,7 @@
 
       $brand.append($logoArt, $logoText);
       return $brand[0];
-    }());
+    }
 
     function ensureBrand() {
       var found = $body.children(namespace);
@@ -4334,5 +4336,8 @@
  * Webflow: Interactions: Init
  */
 Webflow.require('ix').init([
-  {"slug":"hover","name":"Hover","value":{"style":{},"triggers":[{"type":"hover","stepsA":[{"transition":"transform 200 ease 0","x":"0px","y":"-10px","z":"0px"}],"stepsB":[{"transition":"transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}}
+  {"slug":"hover","name":"Hover","value":{"style":{},"triggers":[{"type":"hover","stepsA":[{"transition":"transform 200 ease 0","x":"0px","y":"-10px","z":"0px"}],"stepsB":[{"transition":"transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
+  {"slug":"modal","name":"modal","value":{"style":{},"triggers":[{"type":"click","selector":".overlay","stepsA":[{"display":"block","opacity":0},{"display":"block","opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
+  {"slug":"close-modal","name":"close modal","value":{"style":{},"triggers":[{"type":"click","selector":".overlay","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
+  {"slug":"button-appear","name":"button appear","value":{"style":{},"triggers":[{"type":"scroll","selector":".appear-button","offsetBot":"500px","preserve3d":true,"stepsA":[{"display":"block","opacity":0},{"display":"block","opacity":1,"transition":"opacity 500ms ease 0, transform 500ms ease 0","x":"0px","y":"-30px","z":"0px"}],"stepsB":[{"opacity":0,"transition":"opacity 500ms ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"},{"display":"none"}]}]}}
 ]);
