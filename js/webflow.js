@@ -1920,6 +1920,9 @@
     function styleApp(el, data) {
       var _tram = tram(el);
 
+      // Exit early when data is empty to avoid clearing upstream
+      if ($.isEmptyObject(data)) return;
+
       // Get computed transition value
       el.css('transition', '');
       var computed = el.css('transition');
@@ -4337,7 +4340,12 @@
  */
 Webflow.require('ix').init([
   {"slug":"hover","name":"Hover","value":{"style":{},"triggers":[{"type":"hover","stepsA":[{"transition":"transform 200 ease 0","x":"0px","y":"-10px","z":"0px"}],"stepsB":[{"transition":"transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
-  {"slug":"modal","name":"modal","value":{"style":{},"triggers":[{"type":"click","selector":".overlay","stepsA":[{"display":"block","opacity":0},{"display":"block","opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
-  {"slug":"close-modal","name":"close modal","value":{"style":{},"triggers":[{"type":"click","selector":".overlay","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
-  {"slug":"button-appear","name":"button appear","value":{"style":{},"triggers":[{"type":"scroll","selector":".appear-button","offsetBot":"500px","preserve3d":true,"stepsA":[{"display":"block","opacity":0},{"display":"block","opacity":1,"transition":"opacity 500ms ease 0, transform 500ms ease 0","x":"0px","y":"-30px","z":"0px"}],"stepsB":[{"opacity":0,"transition":"opacity 500ms ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"},{"display":"none"}]}]}}
+  {"slug":"home-page","name":"home page","value":{"style":{},"triggers":[{"type":"hover","selector":".arrow-left","loopA":true,"loopB":true,"preserve3d":true,"stepsA":[{"opacity":0.45,"transition":"transform 1000ms ease 0, opacity 200 ease 0","x":"-10px","y":"0px","z":"0px"},{"opacity":1,"x":"0px","y":"0px","z":"0px"}],"stepsB":[{"opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
+  {"slug":"design-link","name":"Design link","value":{"style":{},"triggers":[{"type":"hover","selector":".arrow-design","loopA":true,"loopB":true,"preserve3d":true,"stepsA":[{"opacity":0.45,"transition":"transform 750ms ease 0, opacity 200 ease 0","x":"10px","y":"0px","z":"0px"},{"opacity":1,"x":"0px","y":"0px","z":"0px"}],"stepsB":[{"opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
+  {"slug":"code-link","name":"Code Link","value":{"style":{},"triggers":[{"type":"hover","selector":".arrow-code","loopA":true,"loopB":true,"preserve3d":true,"stepsA":[{"opacity":0.45,"transition":"transform 750ms ease 0, opacity 200 ease 0","x":"10px","y":"0px","z":"0px"},{"opacity":1,"x":"0px","y":"0px","z":"0px"}],"stepsB":[{"opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
+  {"slug":"starter-link","name":"Starter Link ","value":{"style":{},"triggers":[{"type":"hover","selector":".arrow-starter","loopA":true,"loopB":true,"preserve3d":true,"stepsA":[{"opacity":0.45,"transition":"transform 1000ms ease 0, opacity 200 ease 0","x":"10px","y":"0px","z":"0px"},{"opacity":1,"x":"0px","y":"0px","z":"0px"}],"stepsB":[{"opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
+  {"slug":"starter-link-2","name":"Starter Link 2","value":{"style":{},"triggers":[{"type":"hover","selector":".arrow-business","loopA":true,"loopB":true,"preserve3d":true,"stepsA":[{"opacity":0.45,"transition":"transform 750ms ease 0, opacity 200 ease 0","x":"10px","y":"0px","z":"0px"},{"opacity":1,"x":"0px","y":"0px","z":"0px"}],"stepsB":[{"opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"0px","z":"0px"}]}]}},
+  {"slug":"banana-appear","name":"Banana appear","value":{"style":{},"triggers":[{"type":"scroll","selector":".banana-float","offsetBot":"500px","preserve3d":true,"stepsA":[{"display":"block","opacity":0},{"display":"block","opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"-30px","z":"0px"}],"stepsB":[{"opacity":0,"transition":"transform 200 ease 0, opacity 200 ease 0","x":"0px","y":"0px","z":"0px"},{"display":"none"}]}]}},
+  {"slug":"overlayin","name":"OverlayIn","value":{"style":{},"triggers":[{"type":"click","selector":".money-and-people","stepsA":[{"display":"none","opacity":0,"transition":"opacity 200 ease 0"},{"display":"block","opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
+  {"slug":"overlayout","name":"Overlayout","value":{"style":{},"triggers":[{"type":"click","selector":".money-and-people","stepsA":[{"display":"none","opacity":0,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}}
 ]);
