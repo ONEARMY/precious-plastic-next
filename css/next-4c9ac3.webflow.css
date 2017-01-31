@@ -418,6 +418,7 @@ margin-bottom: 0px;
 
 .link-block.link-homepage {
   padding: 5px 20px;
+  margin-bottom: 50px;
 }
 
 .h6 {
@@ -857,47 +858,47 @@ margin-bottom: 0px;
 
 .description {
   padding-top: 100px;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
   border: 1px solid #000;
 }
 
 .description.blue {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #7f94d8;
   border-top-style: none;
 }
 
 .description.light-green {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #a7e9d5;
   border-top-style: none;
 }
 
 .description.light-blue {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #83ceeb;
   border-top-style: none;
 }
 
 .description.purple {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #c1adec;
   border-top-style: none;
 }
 
 .description.red {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #f58d8e;
   border-top-style: none;
 }
 
 .description.orange {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #f3a05e;
   border-top-style: none;
