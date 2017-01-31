@@ -225,16 +225,16 @@ margin-bottom: 0px;
 }
 
 .h3.h3-people {
-  width: 18%;
+  width: 5%;
   margin-top: 0px;
   margin-right: 0px;
-  margin-left: 10px;
+  margin-left: 0px;
   color: #00bfa5;
   line-height: 25px;
 }
 
 .h3.h3-money {
-  width: 36%;
+  width: 2%;
   margin-top: 0px;
   margin-left: 0px;
   color: #00bfa5;
@@ -252,14 +252,14 @@ margin-bottom: 0px;
 }
 
 .percentage-people {
-  width: 18%;
+  width: 5%;
   height: 10px;
   border-radius: 100px;
   background-color: #00bfa5;
 }
 
 .percentage-money {
-  width: 36%;
+  width: 2%;
   height: 10px;
   border-radius: 100px;
   background-color: #00bfa5;
@@ -340,14 +340,14 @@ margin-bottom: 0px;
 }
 
 .h5 {
-  display: none;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Open Sans', sans-serif;
-  color: #9aa0a3;
-  font-size: 12px;
+  color: rgba(154, 160, 163, 0.5);
+  font-size: 18px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 .h5:hover {
@@ -1219,6 +1219,21 @@ margin-bottom: 0px;
   height: 100%;
 }
 
+.lower-opacity {
+  opacity: 0.6;
+}
+
+.urgent{
+  display: inline-block;
+  margin-top: -200px;
+  margin-left: -50px;
+}
+
+.h2.primary{
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
 
 @media (max-width: 991px) {
   .div-video {
@@ -1444,6 +1459,9 @@ margin-bottom: 0px;
   .link-started {
     cursor: pointer;
   }
+  .urgent{
+    margin-left: -70px;
+  }
 
 }
 
@@ -1601,6 +1619,9 @@ margin-bottom: 0px;
   .embedd-typeform {
       width: 90%;
       margin-bottom: 50px;
+    }
+    .urgent{
+      display: none;
     }
   }
 @media (max-width: 479px) {
