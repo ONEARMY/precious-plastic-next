@@ -54,6 +54,11 @@ img {
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
+
+.tabpane.w-tab-pane.w--tab-active h4 {
+    font-size: 19px;
+}
+
 .w-block {
   display: block;
 }
