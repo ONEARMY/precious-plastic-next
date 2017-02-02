@@ -1215,7 +1215,7 @@
     var api = {};
 
     // Cross-Domain AJAX for IE8
-    
+
 
     var $doc = $(document);
     var $forms;
@@ -4349,3 +4349,26 @@ Webflow.require('ix').init([
   {"slug":"overlayin","name":"OverlayIn","value":{"style":{},"triggers":[{"type":"click","selector":".money-and-people","stepsA":[{"display":"none","opacity":0,"transition":"opacity 200 ease 0"},{"display":"block","opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
   {"slug":"overlayout","name":"Overlayout","value":{"style":{},"triggers":[{"type":"click","selector":".money-and-people","stepsA":[{"display":"none","opacity":0,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}}
 ]);
+
+//
+// $('.counter').each(function() {
+//   var $this = $(this),
+//       countTo = $this.attr('data-count');
+//
+//   $({ countNum: $this.text()}).delay(1000).animate({
+//     countNum: countTo
+//   },
+//
+//   {
+//     duration: 1500,
+//     easing:'linear',
+//     step: function() {
+//       $this.text(Math.floor(this.countNum));
+//     },
+//     complete: function() {
+//       $this.text(this.countNum);
+//       //alert('finished');
+//     }
+//
+//   });
+// });

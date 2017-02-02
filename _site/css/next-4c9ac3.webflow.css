@@ -52,9 +52,17 @@ margin-bottom: 0px;
 
 .logo {
   display: block;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.logotop{
+  width:120px;
+}
+
+.logobottom {
+  width:150px;
 }
 
 .h1 {
@@ -217,16 +225,16 @@ margin-bottom: 0px;
 }
 
 .h3.h3-people {
-  width: 18%;
+  width: 20%;
   margin-top: 0px;
   margin-right: 0px;
-  margin-left: 10px;
+  margin-left: 0px;
   color: #00bfa5;
   line-height: 25px;
 }
 
 .h3.h3-money {
-  width: 36%;
+  width: 14%;
   margin-top: 0px;
   margin-left: 0px;
   color: #00bfa5;
@@ -244,14 +252,14 @@ margin-bottom: 0px;
 }
 
 .percentage-people {
-  width: 18%;
+  width: 16%;
   height: 10px;
   border-radius: 100px;
   background-color: #00bfa5;
 }
 
 .percentage-money {
-  width: 36%;
+  width: 8%;
   height: 10px;
   border-radius: 100px;
   background-color: #00bfa5;
@@ -332,14 +340,14 @@ margin-bottom: 0px;
 }
 
 .h5 {
-  display: none;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Open Sans', sans-serif;
-  color: #9aa0a3;
-  font-size: 12px;
+  color: rgba(154, 160, 163, 0.5);
+  font-size: 18px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 .h5:hover {
@@ -410,6 +418,7 @@ margin-bottom: 0px;
 
 .link-block.link-homepage {
   padding: 5px 20px;
+  margin-bottom: 50px;
 }
 
 .h6 {
@@ -648,64 +657,85 @@ margin-bottom: 0px;
 .support-link.red {
   border: 2px solid #f58d8e;
   border-radius: 0px;
-  -webkit-transition: background-position 750ms ease;
-  transition: background-position 750ms ease;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
 }
 
 .support-link.red:hover {
-  box-shadow: 1px 1px 11px 0 #9aa0a3;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.light-green {
   border: 2px solid #a7e9d5;
-  -webkit-transition: box-shadow 750ms ease;
-  transition: box-shadow 750ms ease;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
 }
 
 .support-link.light-green:hover {
-  box-shadow: 0 1px 11px 0 #9aa0a3;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
 }
+
 
 .support-link.purple {
   border: 2px solid #c1adec;
-  -webkit-transition: opacity 750ms ease;
-  transition: opacity 750ms ease;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.purple:hover {
   box-shadow: 1px 1px 11px 0 #9aa0a3;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.blue {
   border: 2px solid #7f94d8;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.blue:hover {
   box-shadow: 0 1px 11px 0 #9aa0a3;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
 }
 
-.support-link.yellow {
-  border: 2px solid #ffe69d;
-}
 
 .support-link.orange {
   border: 3px solid #f3a05e;
-  -webkit-transition: background-position 750ms ease;
   transition: background-position 750ms ease;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.orange:hover {
   box-shadow: 1px 1px 11px 0 #9aa0a3;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.light-blue {
   border: 2px solid #83ceeb;
-  -webkit-transition: box-shadow 750ms ease;
-  transition: box-shadow 750ms ease;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-link.light-blue:hover {
   box-shadow: 0 1px 11px 0 #9aa0a3;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
+}
+
+.support-link.grey {
+  border: 2px solid #838383;
+  box-shadow: 0px 10px 20px 0 rgba(154, 160, 163, 0.5);
+
+}
+
+.support-link.grey {
+  box-shadow: 0 1px 11px 0 #838383;
+  box-shadow: 0px 20px 30px 0 rgba(154, 160, 163, 0.5);
+
 }
 
 .support-element {
@@ -841,47 +871,47 @@ margin-bottom: 0px;
 
 .description {
   padding-top: 100px;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
   border: 1px solid #000;
 }
 
 .description.blue {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #7f94d8;
   border-top-style: none;
 }
 
 .description.light-green {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #a7e9d5;
   border-top-style: none;
 }
 
 .description.light-blue {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #83ceeb;
   border-top-style: none;
 }
 
 .description.purple {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #c1adec;
   border-top-style: none;
 }
 
 .description.red {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #f58d8e;
   border-top-style: none;
 }
 
 .description.orange {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-width: 10px;
   border-color: #f3a05e;
   border-top-style: none;
@@ -1193,10 +1223,31 @@ margin-bottom: 0px;
 .embedd-typeform {
   display: block;
   width: 80%;
-  height: 800px;
+  height: 650px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 50px;
 }
+
+.typeform-widget {
+  height: 100%;
+}
+
+.lower-opacity {
+  opacity: 0.6;
+}
+
+.urgent{
+  display: inline-block;
+  margin-top: -200px;
+  margin-left: -50px;
+}
+
+.h2.primary{
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
 
 @media (max-width: 991px) {
   .div-video {
@@ -1422,6 +1473,10 @@ margin-bottom: 0px;
   .link-started {
     cursor: pointer;
   }
+  .urgent{
+    margin-left: -70px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -1576,10 +1631,13 @@ margin-bottom: 0px;
     width: 90%;
   }
   .embedd-typeform {
-    width: 90%;
+      width: 90%;
+      margin-bottom: 50px;
+    }
+    .urgent{
+      display: none;
+    }
   }
-}
-
 @media (max-width: 479px) {
   .landing {
     padding-top: 0px;
@@ -1602,6 +1660,11 @@ margin-bottom: 0px;
     width: 150px;
     margin: 0px auto;
   }
+
+  .logotop{
+  width:100px;
+  margin-bottom:15px;
+}
   .h1 {
     display: block;
     margin-top: 0px;
@@ -1615,7 +1678,6 @@ margin-bottom: 0px;
     text-align: center;
   }
   .h1.subheading {
-    display: none;
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -1906,4 +1968,8 @@ margin-bottom: 0px;
     margin-right: 10px;
     margin-left: 10px;
   }
+  .embedd-typeform {
+      width: 90%;
+      height: 450px;
+    }
 }
