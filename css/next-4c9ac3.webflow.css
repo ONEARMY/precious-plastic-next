@@ -234,7 +234,7 @@ margin-bottom: 0px;
 }
 
 .h3.h3-money {
-  width: 14%;
+  width: 16%;
   margin-top: 0px;
   margin-left: 0px;
   color: #00bfa5;
@@ -252,14 +252,14 @@ margin-bottom: 0px;
 }
 
 .percentage-people {
-  width: 35%;
+  width: 37%;
   height: 10px;
   border-radius: 100px;
   background-color: #00bfa5;
 }
 
 .percentage-money {
-  width: 8%;
+  width: 9%;
   height: 10px;
   border-radius: 100px;
   background-color: #00bfa5;
