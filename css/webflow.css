@@ -46,6 +46,30 @@ body {
   line-height: 20px;
   color: #333;
 }
+
+.soon {
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'varela round';
+}
+
+.soon h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.soon p#demo {
+    font-size: 30px;
+    color: #12c29a;
+}
+
+
+.soon p#demo {
+    font-size: 30px;
+    color: #12c29a;
+}
+
+
 img {
   max-width: 100%;
   vertical-align: middle;
