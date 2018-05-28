@@ -505,7 +505,7 @@ body {
   }
   .video-next {
     width: 90%;
-    margin-top: 90vh;
+    margin-top: -20%;
   }
   .next-budget {
     margin-top: -12vh;
