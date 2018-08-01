@@ -6,7 +6,7 @@
   position: relative;
   display: block;
   width: 50%;
-  margin: -35vh auto 0vh;
+  margin: -20vh auto 0vh;
   padding: 10px;
   border-radius: 3px;
   background-color: #fff;
@@ -1440,6 +1440,12 @@
   width: 20px;
   margin-top: -5px;
   margin-left: 5px;
+}
+
+.html-video-embedd {
+  position: relative;
+  height: 0px;
+  padding-bottom: 56.25%;
 }
 
 @media (max-width: 991px) {
