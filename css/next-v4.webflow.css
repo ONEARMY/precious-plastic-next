@@ -232,7 +232,7 @@
 }
 
 .project-position-wrapper.styr-des {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.safety-res {
@@ -243,7 +243,7 @@
 
 .project-position-wrapper.foil-des {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.sheet-des {
@@ -407,7 +407,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.extrusion-des {
@@ -640,7 +640,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/pp.jpg');
+  background-image: url('../images/jason-knight.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -758,10 +758,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/profile.png');
+  background-image: url('../images/foils-des.png');
   background-position: 50% 50%;
-  background-size: 15px;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.backend-1-pic {
@@ -872,6 +872,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/adrian.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.arduino-des {
@@ -1152,6 +1156,21 @@
 
 .team-member-pic.ellieewart {
   background-image: url('../images/activist-2.jpg');
+}
+
+.team-member-pic.luois {
+  background-image: url('../images/foils-des.png');
+}
+
+.team-member-pic.bor {
+  background-image: url('../images/bor.png');
+}
+.team-member-pic.adrian {
+  background-image: url('../images/adrian.png');
+}
+
+.team-member-pic.jason-knight {
+  background-image: url('../images/jason-knight.png');
 }
 
 .team-member-pic.mattia {
@@ -1492,7 +1511,7 @@
   padding-bottom: 56.25%;
 }
 
-.strike-through-business{
+.strike-through{
     text-decoration: line-through;
 }
 
