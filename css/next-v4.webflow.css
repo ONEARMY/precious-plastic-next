@@ -228,7 +228,7 @@
 }
 
 .project-position-wrapper.business-chap {
-  opacity: 0;
+  opacity: 100;
 }
 
 .project-position-wrapper.styr-des {
@@ -340,7 +340,7 @@
 
 .project-position-wrapper.activist-2 {
   position: relative;
-  opacity: 1;
+  opacity: 100%;
   text-align: center;
 }
 
@@ -376,7 +376,7 @@
 }
 
 .project-position-wrapper.activist-1 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.backend-1 {
@@ -610,6 +610,20 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/business.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-position-pic.activist-2-pic {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/activist-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.robotics-geek-2 {
@@ -884,6 +898,11 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/activist-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
 }
 
 .project-position-pic.dirty-eng {
@@ -1125,6 +1144,14 @@
 
 .team-member-pic.selj {
   background-image: url('../images/activist-1-sel.jpg');
+}
+
+.team-member-pic.joseph-klatt {
+  background-image: url('../images/business.jpg');
+}
+
+.team-member-pic.ellieewart {
+  background-image: url('../images/activist-2.jpg');
 }
 
 .team-member-pic.mattia {
@@ -1464,6 +1491,11 @@
   height: 0px;
   padding-bottom: 56.25%;
 }
+
+.strike-through-business{
+    text-decoration: line-through;
+}
+
 
 @media (max-width: 991px) {
   .next-video {
