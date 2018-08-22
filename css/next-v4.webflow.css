@@ -300,7 +300,7 @@
 
 .project-position-wrapper.sheet-des-2 {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.fun-manager {
@@ -345,7 +345,7 @@
 }
 
 .project-position-wrapper.frontend-1 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.chef-3 {
@@ -394,7 +394,7 @@
 
 .project-position-wrapper.pr-extr-des {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.styr-eng {
@@ -415,7 +415,7 @@
 }
 
 .project-position-wrapper.pr-extr-des-2 {
-  display: none;
+  opacity: 1;
 }
 
 .project-position-wrapper.robotics-geek-2 {
@@ -660,6 +660,21 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/timslab.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+.project-position-pic.pr-extr-designer-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/mireia.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.extr-des {
@@ -669,7 +684,7 @@
   background-image: url('../images/Dave-Hakkens-portrait-Design-Academy-Eindhoven_dezeen_01.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.sort-eng {
@@ -742,6 +757,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/benjamin.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.arduino-eng {
@@ -846,14 +865,18 @@
   margin-left: auto;
   background-image: url('../images/profile.png');
   background-position: 50% 50%;
-  background-size: 15px;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.sheet-designer-1 {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/vicente.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.sheet-des {
@@ -1172,7 +1195,26 @@
 .team-member-pic.jason-knight {
   background-image: url('../images/jason-knight.png');
 }
+.team-member-pic.timslab {
+  background-image: url('../images/timslab.png');
+}
 
+.team-member-pic.mireia {
+  background-image: url('../images/mireia.png');
+}
+
+.team-member-pic.yann {
+  background-image: url('../images/yann.png');
+}
+.team-member-pic.alicia {
+  background-image: url('../images/alicia.png');
+}
+.team-member-pic.benj {
+  background-image: url('../images/benjamin.png');
+}
+.team-member-pic.vicente {
+  background-image: url('../images/vicente.png');
+}
 .team-member-pic.mattia {
   background-image: url('../images/10624936_571331439645910_6570662562610397051_n.jpg');
 }
