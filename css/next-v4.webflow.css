@@ -295,7 +295,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.sheet-des-2 {
@@ -400,6 +400,10 @@
 .project-position-wrapper.styr-eng {
   display: block;
   opacity: 1;
+}
+.project-position-wrapper.shredder-eng-1 {
+  display: block;
+  opacity: 0;
 }
 
 .project-position-wrapper.sheet-eng {
@@ -611,6 +615,16 @@
   margin-right: auto;
   margin-left: auto;
   background-image: url('../images/business.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-position-pic.shredder-eng-pic-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/friedrich.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
