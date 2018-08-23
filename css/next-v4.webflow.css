@@ -256,7 +256,7 @@
 
 .project-position-wrapper.cleaning-eng {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.brand-des {
@@ -295,7 +295,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.sheet-des-2 {
@@ -304,12 +304,12 @@
 }
 
 .project-position-wrapper.fun-manager {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.chef-1 {
-  margin-right: -20px;
-  opacity: 0;
+    display: block;
+    opacity: 1;
 }
 
 .project-position-wrapper.coordinator {
@@ -359,11 +359,11 @@
 
 .project-position-wrapper.ui-des {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.beyond-eng {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.doc-photo {
@@ -384,12 +384,12 @@
 }
 
 .project-position-wrapper.beyond-des {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.web-des-ux {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.pr-extr-des {
@@ -399,7 +399,7 @@
 
 .project-position-wrapper.styr-eng {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.sheet-eng {
@@ -411,7 +411,7 @@
 }
 
 .project-position-wrapper.extrusion-des {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.pr-extr-des-2 {
@@ -419,7 +419,7 @@
 }
 
 .project-position-wrapper.robotics-geek-2 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.arduino-eng {
@@ -433,7 +433,7 @@
 
 .project-position-wrapper.dirty-eng {
   margin-right: -10px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.safety-eng {
@@ -630,7 +630,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/10624936_571331439645910_6570662562610397051_n.jpg');
+  background-image: url('../images/bradford.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -681,10 +681,11 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/Dave-Hakkens-portrait-Design-Academy-Eindhoven_dezeen_01.jpg');
+  background-image: url('../images/nate.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 5px;
 }
 
 .project-position-pic.sort-eng {
@@ -729,6 +730,11 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/carolina.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
 }
 
 .project-position-pic.doc-pic {
@@ -751,6 +757,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/saskia.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.frontend-1-pic {
@@ -797,16 +807,20 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/herzog.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.clean-eng {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/profile.png');
+  background-image: url('../images/ananyabrata.png');
   background-position: 50% 50%;
-  background-size: 15px;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.store-pic {
@@ -819,6 +833,11 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/yannis.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
 }
 
 .project-position-pic.foils-eng {
@@ -827,20 +846,28 @@
   margin-left: auto;
   background-image: url('../images/profile.png');
   background-position: 50% 50%;
-  background-size: 15px;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.extr-eng {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/friedrich.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.ui-designer {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/nicolas.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.dirty-des {
@@ -857,6 +884,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/akos.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.robotics-geek-1 {
@@ -936,7 +967,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/10838182_10204106640131811_8439167785773366112_o.jpg');
+  background-image: url('../images/paul.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -946,6 +977,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/marina.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.sheet-designer-2 {
@@ -1215,6 +1250,56 @@
 .team-member-pic.vicente {
   background-image: url('../images/vicente.png');
 }
+.team-member-pic.marina {
+  background-image: url('../images/marina.png');
+}
+.team-member-pic.jannis {
+  background-image: url('../images/jannis.png');
+}
+.team-member-pic.friedrich {
+  background-image: url('../images/friedrich.png');
+}
+.team-member-pic.carolina {
+  background-image: url('../images/carolina.png');
+}
+.team-member-pic.bradford {
+  background-image: url('../images/bradford.png');
+}
+
+.team-member-pic.saskia {
+  background-image: url('../images/saskia.jpg');
+}
+.team-member-pic.nicolas {
+  background-image: url('../images/nicolas.png');
+}
+.team-member-pic.alicia-kisii {
+  background-image: url('../images/alicia-kisii.jpg');
+}
+.team-member-pic.istvan {
+  background-image: url('../images/istvan.jpg');
+}
+.team-member-pic.manduku {
+  background-image: url('../images/manduku.jpg');
+}
+.team-member-pic.herzog {
+  background-image: url('../images/herzog.jpg');
+}
+.team-member-pic.akos {
+  background-image: url('../images/akos.jpg');
+}
+.team-member-pic.nate {
+  background-image: url('../images/nate.png');
+}
+.team-member-pic.ananyabrata {
+  background-image: url('../images/ananyabrata.png');
+}
+.team-member-pic.paul {
+  background-image: url('../images/paul.png');
+}
+
+
+
+
 .team-member-pic.mattia {
   background-image: url('../images/10624936_571331439645910_6570662562610397051_n.jpg');
 }
@@ -1555,6 +1640,10 @@
 
 .strike-through{
     text-decoration: line-through;
+}
+
+.design-remote-1 {
+  display: none;
 }
 
 
