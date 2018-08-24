@@ -278,7 +278,7 @@
 }
 
 .project-position-wrapper.store-manager {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.sorting-des {
@@ -354,7 +354,7 @@
 }
 
 .project-position-wrapper.chef-2 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.ui-des {
@@ -841,6 +841,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/mai.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.beyond-engineer {
@@ -1017,6 +1021,11 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/yegor.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
 }
 
 .project-position-pic.safety-des {
@@ -1309,6 +1318,12 @@
 }
 .team-member-pic.paul {
   background-image: url('../images/paul.png');
+}
+.team-member-pic.mai {
+  background-image: url('../images/mai.jpg');
+}
+.team-member-pic.yegor {
+  background-image: url('../images/yegor.jpg');
 }
 
 
