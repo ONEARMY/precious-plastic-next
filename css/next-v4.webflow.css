@@ -260,7 +260,7 @@
 }
 
 .project-position-wrapper.brand-des {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.arduino-des {
@@ -726,6 +726,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/charlotte.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.chef-2-pic {
@@ -1324,6 +1328,9 @@
 }
 .team-member-pic.yegor {
   background-image: url('../images/yegor.jpg');
+}
+.team-member-pic.charlotte {
+  background-image: url('../images/charlotte.png');
 }
 
 
