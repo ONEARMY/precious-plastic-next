@@ -313,7 +313,7 @@
 }
 
 .project-position-wrapper.coordinator {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.pet-des {
@@ -942,6 +942,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/jessica.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.styr-designer {
@@ -1331,6 +1335,12 @@
 }
 .team-member-pic.charlotte {
   background-image: url('../images/charlotte.png');
+}
+.team-member-pic.charlotte {
+  background-image: url('../images/jessica.jpg');
+}
+.team-member-pic.kai {
+  background-image: url('../images/kai.jpg');
 }
 
 
