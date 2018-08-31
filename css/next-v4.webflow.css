@@ -1092,8 +1092,7 @@
 }
 
 .apply-v4:hover {
-  margin-top: -3px;
-  margin-left: -3px;
+  transform: translateX(-3px);
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .3);
 }
 
