@@ -246,7 +246,7 @@
   opacity: 1;
 }
 
-.project-position-wrapper.sheet-des {
+.project-position-wrapper. {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -291,11 +291,8 @@
 }
 
 .project-position-wrapper.extrusion-eng {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 0;
+  display: block;
+  opacity: 1;
 }
 
 .project-position-wrapper.sheet-des-2 {
@@ -403,14 +400,11 @@
 }
 .project-position-wrapper.shredder-eng-1 {
   display: block;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.sheet-eng {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+display: block;
   opacity: 1;
 }
 
@@ -620,6 +614,17 @@
   background-repeat: no-repeat;
 }
 
+.project-position-pic.shredder-eng-pic-1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/albert.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
 .project-position-pic.shredder-eng-pic-2 {
   display: block;
   margin-right: auto;
@@ -658,6 +663,7 @@
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 5px;
 }
 
 .project-position-pic.pet-des {
@@ -876,7 +882,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/friedrich.png');
+  background-image: url('../images/peter.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -930,12 +936,17 @@
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 5px;
 }
 
 .project-position-pic.sheet-des {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/thomas.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 .project-position-pic.coordinator-pic {
@@ -1010,9 +1021,7 @@
 }
 
 .project-position-pic.sheet-designer-2 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+
 }
 
 .project-position-pic.clean-des {
@@ -1233,9 +1242,18 @@
 .team-member-pic.ben {
   background-image: url('../images/pp.jpg');
 }
+.team-member-pic.albert {
+  background-image: url('../images/albert.png');
+}
 
 .team-member-pic.selj {
   background-image: url('../images/activist-1-sel.jpg');
+}
+.team-member-pic.galina {
+  background-image: url('../images/galina.png');
+}
+.team-member-pic.peter {
+  background-image: url('../images/peter.png');
 }
 
 .team-member-pic.joseph-klatt {
@@ -1340,6 +1358,9 @@
 }
 .team-member-pic.kai {
   background-image: url('../images/kai.jpg');
+}
+.team-member-pic.thomas {
+  background-image: url('../images/thomas.jpg');
 }
 
 
@@ -1963,7 +1984,9 @@
     padding: 9px;
   }
   .project-position-wrapper.sheet-des {
-    display: none;
+    display: block;
+    opacity: 1;
+    margin-left: 5px;
   }
   .p-project-next {
     font-size: 14px;
