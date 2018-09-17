@@ -287,7 +287,7 @@
 }
 
 .project-position-wrapper.fullstack {
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-position-wrapper.extrusion-eng {
@@ -748,6 +748,10 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-image: url('../images/chris.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-position-pic.styr-eng-pic {
@@ -1364,6 +1368,9 @@ display: block;
 .team-member-pic.luiza {
   background-image: url('../images/luiza.jpg');
 }
+.team-member-pic.chris {
+  background-image: url('../images/chris.jpg');
+}
 
 
 
@@ -1712,6 +1719,17 @@ display: block;
 
 .design-remote-1 {
   display: none;
+}
+
+.notification-next {
+  background-color: #00C3A9;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  color: white;
+
 }
 
 
