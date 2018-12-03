@@ -1371,6 +1371,18 @@ display: block;
 .team-member-pic.chris {
   background-image: url('../images/chris.jpg');
 }
+.team-member-pic.mariska {
+  background-image: url('../images/mariska.jpg');
+}
+.team-member-pic.julie {
+  background-image: url('../images/julie.jpg');
+}
+.team-member-pic.serafina {
+  background-image: url('../images/serafina.jpg');
+}
+.team-member-pic.mark {
+  background-image: url('../images/mark.jpg');
+}
 
 
 
@@ -1730,6 +1742,10 @@ display: block;
   text-align: center;
   color: white;
 
+}
+
+.low-priority {
+  opacity:.3;
 }
 
 
