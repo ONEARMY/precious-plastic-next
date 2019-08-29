@@ -1541,6 +1541,7 @@ display: block;
   width: 15%;
   margin-right: 2.5%;
   margin-left: 2.5%;
+  display: none;
 }
 
 .team-members {
