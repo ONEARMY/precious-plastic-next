@@ -228,11 +228,11 @@
 }
 
 .project-position-wrapper.business-chap {
-  opacity: 100;
+  opacity: 0;
 }
 
 .project-position-wrapper.styr-des {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.safety-res {
@@ -243,10 +243,10 @@
 
 .project-position-wrapper.foil-des {
   display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
-.project-position-wrapper. {
+.project-position-wrapper.sheet-des {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -256,11 +256,11 @@
 
 .project-position-wrapper.cleaning-eng {
   display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.brand-des {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.arduino-des {
@@ -278,7 +278,7 @@
 }
 
 .project-position-wrapper.store-manager {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.sorting-des {
@@ -287,30 +287,33 @@
 }
 
 .project-position-wrapper.fullstack {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.extrusion-eng {
-  display: block;
-  opacity: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
 }
 
 .project-position-wrapper.sheet-des-2 {
   display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.fun-manager {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.chef-1 {
-    display: block;
-    opacity: 1;
+  margin-right: -20px;
+  opacity: 0;
 }
 
 .project-position-wrapper.coordinator {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.pet-des {
@@ -337,12 +340,12 @@
 
 .project-position-wrapper.activist-2 {
   position: relative;
-  opacity: 100%;
+  opacity: 1;
   text-align: center;
 }
 
 .project-position-wrapper.frontend-1 {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.chef-3 {
@@ -351,16 +354,16 @@
 }
 
 .project-position-wrapper.chef-2 {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.ui-des {
   display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.beyond-eng {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.doc-photo {
@@ -373,7 +376,7 @@
 }
 
 .project-position-wrapper.activist-1 {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.backend-1 {
@@ -381,43 +384,42 @@
 }
 
 .project-position-wrapper.beyond-des {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.web-des-ux {
   display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.pr-extr-des {
   display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.styr-eng {
   display: block;
-  opacity: 1;
-}
-.project-position-wrapper.shredder-eng-1 {
-  display: block;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.sheet-eng {
-display: block;
-  opacity: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
 }
 
 .project-position-wrapper.extrusion-des {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.pr-extr-des-2 {
-  opacity: 1;
+  display: none;
 }
 
 .project-position-wrapper.robotics-geek-2 {
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.arduino-eng {
@@ -431,7 +433,7 @@ display: block;
 
 .project-position-wrapper.dirty-eng {
   margin-right: -10px;
-  opacity: 1;
+  opacity: 0;
 }
 
 .project-position-wrapper.safety-eng {
@@ -485,10 +487,10 @@ display: block;
   justify-content: space-between;
   border-style: none;
   border-width: 1px;
-  border-color: rgba(235, 89, 89, .2);
+  border-color: rgba(235, 89, 89, 0.2);
   border-radius: 3px;
   background-color: #fff;
-  box-shadow: 1px 1px 15px -2px rgba(0, 0, 0, .3);
+  box-shadow: 1px 1px 15px -2px rgba(0, 0, 0, 0.3);
 }
 
 .emoji-machines {
@@ -598,7 +600,7 @@ display: block;
   border: 1px solid #f58d8e;
   border-radius: 100px;
   background-color: #dbe3ec;
-  background-image: url('../images/example-bg.png'), url('../images/profile.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png'), url('../images/profile.png');
   background-position: 0px 0px, 50% 50%;
   background-size: 125px, 15px;
   background-repeat: repeat, repeat;
@@ -608,48 +610,13 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/business.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project-position-pic.shredder-eng-pic-1 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/albert.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 5px;
-}
-
-.project-position-pic.shredder-eng-pic-2 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/friedrich.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project-position-pic.activist-2-pic {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/activist-2.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.robotics-geek-2 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/bradford.png');
+  background-image: url('../images/10624936_571331439645910_6570662562610397051_n.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -659,11 +626,10 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/jason-knight.png');
+  background-image: url('../images/pp.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 5px;
 }
 
 .project-position-pic.pet-des {
@@ -680,32 +646,16 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/timslab.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 5px;
-}
-
-.project-position-pic.pr-extr-designer-2 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/mireia.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.extr-des {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/nate.png');
+  background-image: url('../images/Dave-Hakkens-portrait-Design-Academy-Eindhoven_dezeen_01.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 5px;
+  background-repeat: repeat;
 }
 
 .project-position-pic.sort-eng {
@@ -732,10 +682,6 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/charlotte.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.chef-2-pic {
@@ -748,21 +694,12 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/chris.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.styr-eng-pic {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/carolina.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 5px;
 }
 
 .project-position-pic.doc-pic {
@@ -785,20 +722,12 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/saskia.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.frontend-1-pic {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/benjamin.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.arduino-eng {
@@ -815,10 +744,10 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/foils-des.png');
+  background-image: url('../images/profile.png');
   background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 15px;
+  background-repeat: repeat;
 }
 
 .project-position-pic.backend-1-pic {
@@ -835,41 +764,28 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/herzog.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.clean-eng {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/ananyabrata.png');
+  background-image: url('../images/profile.png');
   background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 15px;
+  background-repeat: repeat;
 }
 
 .project-position-pic.store-pic {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/mai.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.beyond-engineer {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/yannis.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 5px;
 }
 
 .project-position-pic.foils-eng {
@@ -878,28 +794,20 @@ display: block;
   margin-left: auto;
   background-image: url('../images/profile.png');
   background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 15px;
+  background-repeat: repeat;
 }
 
 .project-position-pic.extr-eng {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/peter.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.ui-designer {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/nicolas.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.dirty-des {
@@ -916,10 +824,6 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/akos.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.robotics-geek-1 {
@@ -928,49 +832,32 @@ display: block;
   margin-left: auto;
   background-image: url('../images/profile.png');
   background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 15px;
+  background-repeat: repeat;
 }
 
 .project-position-pic.sheet-designer-1 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/vicente.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 5px;
 }
 
 .project-position-pic.sheet-des {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/thomas.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: repeat;
 }
 
 .project-position-pic.coordinator-pic {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/jessica.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.styr-designer {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/adrian.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.arduino-des {
@@ -997,18 +884,13 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/activist-2.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 5px;
 }
 
 .project-position-pic.dirty-eng {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/paul.png');
+  background-image: url('../images/10838182_10204106640131811_8439167785773366112_o.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -1018,14 +900,12 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/marina.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-position-pic.sheet-designer-2 {
-
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .project-position-pic.clean-des {
@@ -1042,11 +922,6 @@ display: block;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/yegor.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 5px;
 }
 
 .project-position-pic.safety-des {
@@ -1094,7 +969,13 @@ display: block;
   color: #fff;
 }
 
+.h1-next.online {
+  width: 50%;
+  line-height: 60px;
+}
+
 .apply-v4 {
+  position: absolute;
   float: right;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -1102,21 +983,22 @@ display: block;
   flex: 0 auto;
   border-radius: 3px;
   background-color: #f58d8e;
-  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .3);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #fff;
 }
 
 .apply-v4:hover {
-  transform: translateX(-3px);
-  box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, .3);
+  margin-top: -3px;
+  margin-left: -3px;
+  box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 .apply-v4:active {
   margin-top: 0px;
   margin-left: 0px;
-  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .3);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .apply-v4.hidden {
@@ -1245,215 +1127,6 @@ display: block;
 .team-member-pic.ben {
   background-image: url('../images/pp.jpg');
 }
-.team-member-pic.albert {
-  background-image: url('../images/albert.png');
-}
-
-.team-member-pic.selj {
-  background-image: url('../images/activist-1-sel.jpg');
-}
-.team-member-pic.galina {
-  background-image: url('../images/galina.png');
-}
-.team-member-pic.peter {
-  background-image: url('../images/peter.png');
-}
-
-.team-member-pic.joseph-klatt {
-  background-image: url('../images/business.jpg');
-}
-
-.team-member-pic.ellieewart {
-  background-image: url('../images/activist-2.jpg');
-}
-
-.team-member-pic.luois {
-  background-image: url('../images/foils-des.png');
-}
-
-.team-member-pic.bor {
-  background-image: url('../images/bor.png');
-}
-.team-member-pic.adrian {
-  background-image: url('../images/adrian.png');
-}
-
-.team-member-pic.jason-knight {
-  background-image: url('../images/jason-knight.png');
-}
-.team-member-pic.timslab {
-  background-image: url('../images/timslab.png');
-}
-
-.team-member-pic.mireia {
-  background-image: url('../images/mireia.png');
-}
-
-.team-member-pic.yann {
-  background-image: url('../images/yann.png');
-}
-.team-member-pic.alicia {
-  background-image: url('../images/alicia.png');
-}
-.team-member-pic.benj {
-  background-image: url('../images/benjamin.png');
-}
-.team-member-pic.vicente {
-  background-image: url('../images/vicente.png');
-}
-.team-member-pic.marina {
-  background-image: url('../images/marina.png');
-}
-.team-member-pic.jannis {
-  background-image: url('../images/jannis.png');
-}
-.team-member-pic.friedrich {
-  background-image: url('../images/friedrich.png');
-}
-.team-member-pic.carolina {
-  background-image: url('../images/carolina.png');
-}
-.team-member-pic.bradford {
-  background-image: url('../images/bradford.png');
-}
-
-.team-member-pic.saskia {
-  background-image: url('../images/saskia.jpg');
-}
-.team-member-pic.nicolas {
-  background-image: url('../images/nicolas.png');
-}
-.team-member-pic.alicia-kisii {
-  background-image: url('../images/alicia-kisii.jpg');
-}
-.team-member-pic.istvan {
-  background-image: url('../images/istvan.jpg');
-}
-.team-member-pic.manduku {
-  background-image: url('../images/manduku.jpg');
-}
-.team-member-pic.herzog {
-  background-image: url('../images/herzog.jpg');
-}
-.team-member-pic.akos {
-  background-image: url('../images/akos.jpg');
-}
-.team-member-pic.nate {
-  background-image: url('../images/nate.png');
-}
-.team-member-pic.ananyabrata {
-  background-image: url('../images/ananyabrata.png');
-}
-.team-member-pic.paul {
-  background-image: url('../images/paul.png');
-}
-.team-member-pic.mai {
-  background-image: url('../images/mai.jpg');
-}
-.team-member-pic.yegor {
-  background-image: url('../images/yegor.jpg');
-}
-.team-member-pic.charlotte {
-  background-image: url('../images/charlotte.png');
-}
-.team-member-pic.jessica {
-  background-image: url('../images/jessica.jpg');
-}
-.team-member-pic.kai {
-  background-image: url('../images/kai.jpg');
-}
-.team-member-pic.thomas {
-  background-image: url('../images/thomas.jpg');
-}
-.team-member-pic.luiza {
-  background-image: url('../images/luiza.jpg');
-}
-.team-member-pic.chris {
-  background-image: url('../images/chris.jpg');
-}
-.team-member-pic.mariska {
-  background-image: url('../images/mariska.jpg');
-}
-.team-member-pic.julie {
-  background-image: url('../images/julie.jpg');
-}
-.team-member-pic.serafina {
-  background-image: url('../images/serafina.jpg');
-}
-.team-member-pic.mark {
-  background-image: url('../images/mark.jpg');
-}
-.team-member-pic.johe {
-  background-image: url('../images/johe.jpg');
-}
-.team-member-pic.sue {
-  background-image: url('../images/sue.jpg');
-}
-.team-member-pic.taylor {
-  background-image: url('../images/taylor.jpg');
-}
-.team-member-pic.catie {
-  background-image: url('../images/catie.jpg');
-}
-.team-member-pic.carmen {
-  background-image: url('../images/carmen.jpg');
-}
-.team-member-pic.tirsa {
-  background-image: url('../images/tirsa.jpg');
-}
-.team-member-pic.abrye {
-  background-image: url('../images/abrye.jpg');
-}
-.team-member-pic.sam {
-  background-image: url('../images/sam.jpg');
-}
-.team-member-pic.paco {
-  background-image: url('../images/paco.jpg');
-}
-.team-member-pic.alberto {
-  background-image: url('../images/alberto.jpg');
-}
-.team-member-pic.gizela {
-  background-image: url('../images/gizela.jpg');
-}
-.team-member-pic.alejandro {
-  background-image: url('../images/alejandro.jpg');
-}
-.team-member-pic.adam {
-  background-image: url('../images/adam.jpg');
-}
-.team-member-pic.zsofie {
-  background-image: url('../images/zsofie.jpg');
-}
-.team-member-pic.vincent {
-  background-image: url('../images/vincent.jpg');
-}
-.team-member-pic.eden {
-  background-image: url('../images/eden.jpg');
-}
-.team-member-pic.kit {
-  background-image: url('../images/kit.jpg');
-}
-.team-member-pic.landry {
-  background-image: url('../images/landry.jpg');
-}
-.team-member-pic.lusha {
-  background-image: url('../images/lusha.jpg');
-}
-.team-member-pic.filip {
-  background-image: url('../images/filip.jpg');
-}
-.team-member-pic.tai {
-  background-image: url('../images/tai.jpg');
-}
-.team-member-pic.agi {
-  background-image: url('../images/agi.jpg');
-}
-.team-member-pic.jimi {
-  background-image: url('../images/jimi.jpg');
-}
-
-
 
 .team-member-pic.mattia {
   background-image: url('../images/10624936_571331439645910_6570662562610397051_n.jpg');
@@ -1541,7 +1214,6 @@ display: block;
   width: 15%;
   margin-right: 2.5%;
   margin-left: 2.5%;
-  display: none;
 }
 
 .team-members {
@@ -1794,31 +1466,44 @@ display: block;
   padding-bottom: 56.25%;
 }
 
-.strike-through{
-    text-decoration: line-through;
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.design-remote-1 {
-  display: none;
+.button-v4 {
+  margin-top: 50px;
+  padding: 15px 40px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background-color: #ffe084;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.notification-next {
-  background-color: #00C3A9;
-  padding: 20px 0;
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  text-align: center;
-  color: white;
-
+.button-v4:hover {
+  opacity: 0.7;
 }
 
-.low-priority {
-  opacity:.3;
-}
-
-
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .next-video {
     margin-top: -15%;
     padding: 5px;
@@ -1922,7 +1607,7 @@ display: block;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .next-v4-coming {
     margin-bottom: 50px;
   }
@@ -2028,7 +1713,7 @@ display: block;
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .next-video {
     width: 80%;
     margin-top: 10%;
@@ -2089,9 +1774,7 @@ display: block;
     padding: 9px;
   }
   .project-position-wrapper.sheet-des {
-    display: block;
-    opacity: 1;
-    margin-left: 5px;
+    display: none;
   }
   .p-project-next {
     font-size: 14px;
@@ -2113,6 +1796,11 @@ display: block;
   .h1-project {
     font-size: 22px;
     line-height: 32px;
+  }
+  .h1-next.online {
+    width: 95%;
+    font-size: 24px;
+    line-height: 40px;
   }
   .p-next {
     font-size: 15px;
